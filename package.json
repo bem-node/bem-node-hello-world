@@ -1,0 +1,12 @@
+{
+    "name": "bem-node-hello-world",
+    "version": "0.0.1",
+    "dependencies": {
+        "bem-node": "0.9.3",
+        "enb": "0.8.48",
+        "enb-bemhtml": "0.2.1"
+    },
+    "engines": {
+        "node": ">= 0.10.20"
+    }
+}
