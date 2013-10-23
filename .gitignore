@@ -1,0 +1,5 @@
+app/*/*
+!app/*/*.bemdecl.js
+node_modules
+.bem/cache
+.bem/tmp
