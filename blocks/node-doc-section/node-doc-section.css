@@ -1,0 +1,47 @@
+.node-doc-section h2
+{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+.node-doc-section h3
+{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.node-doc-section h4
+{
+    font-weight: bold;
+    font-size: 1.0em;
+}
+
+
+.node-doc-section > *
+{
+    margin: 1em 0;
+    display: block;
+}
+
+
+ul li
+{
+    margin: 0.5em 0;
+}
+ul {
+    list-style: disc;
+    padding-left: 1em;
+}
+
+.node-doc-section p code
+{
+    font-family: 'Monaco', monospace;
+    background: #f6f5f3;
+    border: 1px solid #dddcda;
+}
+.node-doc-section pre
+{
+    font-family: 'Monaco', monospace;
+    background: #f6f5f3;
+    padding: 1em;
+    border-left: 0.5em solid #dddcda;
+}

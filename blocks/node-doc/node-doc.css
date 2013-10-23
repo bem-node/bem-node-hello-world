@@ -1,0 +1,18 @@
+.node-doc > *
+{
+    float: left;
+}
+
+.node-doc__toc
+{
+    width: 30%;
+}
+
+.node-doc__section .island
+{
+    margin-left: 0;
+}
+.node-doc__section
+{
+    width: 70%;
+}

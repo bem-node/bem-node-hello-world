@@ -1,0 +1,13 @@
+.hello-world
+{
+    padding: 1em;
+}
+.hello-world > *
+{
+    margin: 1em 0;
+}
+.hello-world__title
+{
+    font-size: 2em;
+    font-weight: bold;
+}

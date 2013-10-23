@@ -1,0 +1,29 @@
+.island
+{
+    background: white;
+    box-shadow: 0 0 0 1px #dddcda;
+    margin: 1em;
+    padding: 1em;
+}
+
+.island__item
+{
+    width: 100%;
+    padding: 1em;
+    position: relative;
+    left: -1em;
+
+}
+
+.island__item:last-child
+{
+    padding-bottom: 0;
+}
+.island__item:first-child
+{
+    padding-top: 0;
+}
+.island__item + .island__item
+{
+    border-top:1px solid #dddcda;
+}
