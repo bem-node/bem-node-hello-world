@@ -4,7 +4,7 @@
 BN.addDecl('node-doc-section').blockTemplate(function (ctx) {
     //block template
     var json = ctx.json();
-    ctx.mix([{block: 'island'}]).content(
+    ctx.js(true).mix([{block: 'island'}]).content(
         this._convertDocToBemjson(json.sectionDocs)
     );
 }).dataTemplate(function (ctx) {
@@ -43,5 +43,16 @@ BN.addDecl('node-doc-section').blockTemplate(function (ctx) {
             }
         });
         return bemjsonAr;
+    },
+
+    /**
+     * Updates block on client
+     */
+    updateSection: function (section) {
+        jQuery(window).scrollTop(0);
+        return BN('i-content').update(this.__lastInstance.domElem.parent(), {
+            block: this._name,
+            section: section
+        });
     }
 });
