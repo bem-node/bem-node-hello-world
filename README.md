@@ -11,9 +11,9 @@
 
     $ node app/example/example.server.js --socket 3000
 
-Page will be avaiable at http://127.0.0.1:3000/
+Page will be available at http://127.0.0.1:3000/
 
-### Rebuild prject
+### Rebuild project
 You should rebuild project when adding new files or changing `deps.js` or `bemdecl.js` files
 
     $ make rebuild
