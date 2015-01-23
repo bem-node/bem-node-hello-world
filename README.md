@@ -6,6 +6,7 @@
     $ git clone https://github.com/delfrrr/bem-node-hello-world.git app-name
     $ cd app-name
     $ make
+    $ make rebuild
 
 ### Run
 
